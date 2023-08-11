@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class PlayerMotor : MonoBehaviour
 {
-    private InputManageer inputManager;
     private CharacterController controller;
     private Vector3 playerVelocity;
     private Boolean isGrounded;
