@@ -32,7 +32,7 @@ public class PlayerInteractable : MonoBehaviour
 
             if (inputManager.onfoot.Interact.triggered)
             {
-                playerUI.UpdateText("You hit this thing");
+                Debug.Log("\"You hit this thing\"");
             }
         }
     }
